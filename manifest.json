@@ -1,0 +1,21 @@
+{
+    "short_name":"RR",
+    "name":"Restaurant review app",
+    "icons":[
+        {
+            "src":"./img/icon.jpg",
+            "type":"image/jpg",
+            "sizes":"192x192"
+        },
+        {
+            "src":"./img/icon.jpg",
+            "type":"image/jpg",
+            "sizes":"512x512"
+        }
+    ],
+    "start_url": "/index.html",
+    "background-color":"#000066",
+    "display": "standalone",
+    "orientation": "landscape",
+    "theme_color": "#3367D6"
+}
