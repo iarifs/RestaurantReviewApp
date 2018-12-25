@@ -29,8 +29,9 @@ body {
     .inside #footer {
         width: 100%;
     }
-    #restaurant-name{
-        margin-top:50px;
+
+    #restaurant-name {
+        margin-top: 50px;
     }
 }
 
@@ -39,7 +40,7 @@ body {
     background-color: #999900;
     padding: 0 0px 0 7px;
     color: white;
-    }
+}
 
 
 @media only screen and (min-width: 1000px) {
@@ -57,13 +58,23 @@ body {
         width: 75%;
         height: 100%;
         margin: auto;
-        margin-left:180px;
+        margin-left: 180px;
     }
 
     .inside #footer {
         width: 100%;
     }
-    #restaurant-name{
-        margin-top:50px;
+
+    #restaurant-name {
+        margin-top: 50px;
     }
+}
+
+#restaurants-list li {
+    transition:background-color 2s ease;
+}
+
+#restaurants-list li:hover {
+    background-color:red;
+    color:white;
 }
