@@ -13,15 +13,57 @@ body {
     background-color: black;
 }
 
-@media only screen and (min-width: 440px) and (max-width:768px) {
-    #map{
+@media only screen and (min-width: 440px) and (max-width:968px) {
+    #map {
         min-height: 220px;
     }
-    nav{
-        padding: 20px 0px;
+
+    nav {
+        padding: 35px 0px;
     }
-    .filter-options{
+
+    .filter-options {
         padding: 10px 0 5px 0;
     }
-    
-  }
+
+    .inside #footer {
+        width: 100%;
+    }
+    #restaurant-name{
+        margin-top:50px;
+    }
+}
+
+.ratingStyles {
+    width: 70px;
+    background-color: #999900;
+    padding: 0 0px 0 7px;
+    color: white;
+    }
+
+
+@media only screen and (min-width: 1000px) {
+
+    nav {
+        padding: 35px 0px;
+    }
+
+    nav h1 a {
+        font-size: 25px;
+    }
+
+    #restaurant-container,
+    #reviews-container {
+        width: 75%;
+        height: 100%;
+        margin: auto;
+        margin-left:180px;
+    }
+
+    .inside #footer {
+        width: 100%;
+    }
+    #restaurant-name{
+        margin-top:50px;
+    }
+}
