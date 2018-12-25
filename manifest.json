@@ -13,7 +13,7 @@
             "sizes":"512x512"
         }
     ],
-    "start_url": "iarifs.github.io/offlineAppsFinal",
+    "start_url": "/",
     "background_color":"blue",
     "display": "standalone",
     "theme_color": "#3367D6"
