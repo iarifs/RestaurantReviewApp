@@ -23,6 +23,7 @@ const cacheFiles = [
     "./manifest.json",
     "./restaurant.html",
     "./ServiceWorker.js",
+    "https://unpkg.com/leaflet@1.3.1/dist/leaflet.css",
 ]
 
 //Pull data from local machine first
