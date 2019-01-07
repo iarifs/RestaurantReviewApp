@@ -2,8 +2,10 @@ const fileName = "worker-v-1";
 
 const cacheFiles = [
     './',
+     "./index.html",
     "./css/styles.css",
     "./css/secondStyle.css",
+     "./data/restaurants.json",
     "./img/1.jpg",
     "./img/2.jpg",
     "./img/3.jpg",
@@ -15,13 +17,12 @@ const cacheFiles = [
     "./img/9.jpg",
     "./img/10.jpg",
     "./img/icon.png",
-    "./data/restaurants.json",
     "./js/dbhelper.js",
     "./js/main.js",
     "./js/restaurant_info.js",
-    "./index.html",
     "./manifest.json",
     "./restaurant.html",
+    "./ServiceWorker.js",
 ]
 
 //Pull data from local machine first
