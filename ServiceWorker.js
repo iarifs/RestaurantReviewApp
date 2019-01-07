@@ -28,6 +28,7 @@ const cacheFiles = [
 //Pull data from local machine first
 
 self.addEventListener("fetch", (e) => {
+    console.log(e.request.url);
     e.respondWith(
         caches.match(e.request)
         .then(response => {
