@@ -1,7 +1,7 @@
 const fileName = "worker-v-1";
 
 const cacheFiles = [
-    '/',
+    './',
      "./index.html",
     "./css/styles.css",
     "./css/secondStyle.css",
