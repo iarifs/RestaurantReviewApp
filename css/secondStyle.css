@@ -71,10 +71,10 @@ body {
 }
 
 #restaurants-list li {
-    transition:background-color 2s ease;
+    transition:background-color 1s linear;
 }
 
 #restaurants-list li:hover {
-    background-color:red;
+    background-color:rgb(1, 87, 97);
     color:white;
 }
